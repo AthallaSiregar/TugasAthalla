@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Menghitung Luas </title>
+<script type="text/javascript">
+     function hitungluas(){
+     alas=document.getElementById("alas").value;
+     tinggi=document.getElementById("tinggi").value;
+     hitungluas=(alas*tinggi)*0.5;
+     document.getElementById("luassegitiga").value=hitungluas;
+     }
+
+</script>
+
+<script type="text/javascript">
+     function hitunglingkaran(){
+     jari=document.getElementById("jari").value;
+     hitunglingkaran=(jari**2)*3.14;
+     document.getElementById("luaslingkaran").value=hitunglingkaran;
+     }
+
+</script>
+
+<
+
+</head>
+<body>
+   <form>
+    <h4>Menghitung Luas Segitiga</h4>
+      <table>
+         <tr>
+              <td>Alas</td>
+              <td>:</td>
+              <td><input type="text" id="alas" name="alas"></td>
+         </tr>
+         <tr>
+              <td>Tinggi</td>
+              <td>:</td>
+              <td><input type="text" id="tinggi" name="tinggi"></td>
+         </tr> 
+          <tr>
+              <td>Luas</td>
+              <td>:</td>
+              <td><input type="text"  id="luassegitiga" name="luassegitiga" disabled="true" size="5"></td>
+         </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td><input type="button" value="hitung" onClick="hitungluas()"></td>
+         </tr>
+      </table>
+    </form>
+
+    <form>
+     <h4>Menghitung Luas lingkaran</h4>
+       <table>
+          <tr>
+               <td>Jari-jari</td>
+               <td>:</td>
+               <td><input type="text" id="jari" name="jari"></td>
+          </tr>
+
+          <tr>
+               <td>Luas</td>
+               <td>:</td>
+               <td><input type="text"  id="luaslingkaran" name="luaslingkaran" disabled="true" size="5"></td>
+          </tr>
+      
+           <tr>
+               <td></td>
+               <td></td>
+               <td><input type="button" value="hitung" onClick="hitunglingkaran()"></td>
+          </tr>
+       </table>
+     </form>
+
+
+
+</body>
+</html>
