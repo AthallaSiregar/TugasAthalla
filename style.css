@@ -1,0 +1,300 @@
+.container {
+    width: 1100px;
+}
+/* NavBar */
+.navbar-brand {
+    font-weight: 800;
+    color: #414141!important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Header */
+#myName {
+    font-size: 140%;
+    font-weight: 400;
+    color: #6a6a6a;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nama {
+    font-size: 44px;
+    font-weight: 700;
+    color: #414141;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#welcome {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6a6a6a;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.jumbotron {
+    background-color: #f5f5f5!important;
+}
+
+/* bagian about */
+
+#judulBagian {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #414141;
+}
+
+#about {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 17px;
+    color: #4f4f4f;
+}
+
+#judulHobi {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 8px;
+    color: #4f4f4f;
+}
+
+#isi-about {
+    line-height: 28px;
+    color: #767676;
+}
+
+#hobi {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+/* bagian exp */
+
+
+#org {
+    font-weight: 500;
+    font-size: 18px;
+    color: #696969;
+    margin-bottom: 0px;
+}
+
+#waktu {
+    font-weight: 500;
+    font-size: 14px;
+    color: #959595;
+    margin-bottom: 60px;
+    
+}
+
+#status {
+    font-weight: 650;
+    font-size: 20px;
+    color: #484848;
+    padding-bottom: 81px;
+}
+
+/* Bagian Portfolio */
+
+#portfolio {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.container .box {
+    position: relative;
+    width: 330px;
+    height: 330px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box; display: inline-block;
+}
+
+.container .box .imgbox {
+    position: relative;
+    overflow: hidden;
+}
+
+.container .box .imgbox img {
+    max-width: 100%;
+    transition: transform 0.5s;
+}
+
+.container .box:hover .imgbox img
+{
+    transform: scale(1.2);
+
+}
+
+.container .box .details {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: .5s;
+}
+
+.container .box:hover .details {
+    opacity: 1;
+    /* transform: translateY(50%); */
+}
+
+.container .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-35%);
+    opacity: 0;
+    transition: 1s; 
+    text-align: center
+    padding: 15px;
+    
+}
+
+.container .box:hover .details .content {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.container .box .details .content h2 {
+    
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #636363;
+}
+
+.container .box .details .content p {
+    padding-top: 0px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #636363;
+}
+
+#Port-nina {
+    padding-top: 210px;
+}
+
+#Port-DTM {
+    padding-top: 230px;
+}
+
+#Port-personallogo {
+    padding-top: 210px;
+}
+
+
+#isi-port {
+    padding-top: 0px;
+}
+
+/* get in touch */
+
+#logomail {
+    margin-bottom: 0px;
+}
+
+#logoline {
+    margin-top: 25px;
+}
+
+#logophone {
+    margin-top: 17px;
+}
+
+#MyInfo {
+    padding-left: 0px;
+}
+
+#get {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #494949;
+    margin-bottom: 1px;
+}
+
+#isi-get {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+}
+
+/* bagian get in touch */
+
+#getInTouch {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    /* margin-left:200px ;
+    margin-right: 200px; */
+}
+
+#form {
+    color: #7b7b7b;
+    font-family: 'Poppins', sans-serif
+
+}
+
+#info {
+    font-weight: 700;
+    font-size: 25px;
+    color: #494949;
+}
+
+#judul-info {
+    font-weight: 400;
+    font-size: 20px;
+    color: #7b7b7b;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+#isi-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7b7b7b;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif
+}
+
+/* Bagian footer */
+
+#contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#social {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#copy {
+    color: #7b7b7b;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+#sosmed {
+    padding-right: 0px;
+    padding-left: 0px;
+}
