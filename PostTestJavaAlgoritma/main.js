@@ -1,6 +1,6 @@
-// PENENTUAN HARI ESOK
+// // PENENTUAN HARI ESOK
 
-//Pake else if: 
+// //Pake else if: 
 
 let Hari = prompt ('Sekarang hari apa?');
 
@@ -53,7 +53,7 @@ function esok (Hari){
 
 
 
-//pake switch case:
+// //pake switch case:
 
 let Hari = prompt ('Sekarang hari apa?');
 
@@ -107,7 +107,7 @@ let hari = prompt('sekarang hari apa?');
 
 
 
-// DERET ANGKA GENAP
+// // DERET ANGKA GENAP
 
 let angka = prompt ('hingga angka berapa?')
 
@@ -140,3 +140,28 @@ return 'Done'
 }
 
 console.log(ganjil(angka))
+
+
+// ANGKA PRIMA
+
+let angka = prompt ('hingga angka berapa?')
+var isprime;
+
+function prima (angka){
+    for (var i=2; i<= angka; i++) {
+        isprime = 1;
+
+        for (var j=2; j<=i/2; j++){
+            if(i%j == 0){
+                isprime = 0;
+             }
+        }
+        if(isprime ==1){
+            document.write(i + "<br>");
+            console.log(i);
+        }
+    }
+return 'Done'
+}
+
+console.log(prima(angka))
