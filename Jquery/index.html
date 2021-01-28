@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Document Ready Event
+        $(document). ready(function(){
+
+        }) //atau bisa juga 
+
+        $(function(){
+
+        })
+
+        //Elemen Selector 
+        $("button").click(function(){
+            $("p").hide();
+        })
+        //contoh diatas untuk menghilangkan elemen "p"
+
+        //untuk menselect id maka:
+        $("#test").hide();
+
+        //untuk menselect class maka:
+        $(".test").hide();
+
+        // click() untuk memberikan sebuah fungsi terhadap sebuah elemen
+        $("p").click(function()){
+
+        }
+
+        // focus and blur untuk sebuah form 
+        $("input").focus(function(){
+            $(this).css("background-color","yellow");
+        });
+        $("input").blur(function(){
+            $(this).css("background-color","green");
+        })
+
+        // elemen effect 
+
+        //hide
+        $("p").hide();
+
+        //show
+        $("P").show();
+
+        //toggle
+        $("p").toggle();
+
+        //slideToggle
+        $("#panel").slideToggle("slow");
+
+        //slideup
+        $("#panel").slideUp("slow");
+
+        //slideDown
+        $("#panel").slideDown("slow");
+
+        // memanipulasi DOM 
+
+        text() //memanipulasi text
+        html() //memanipulasi kontent elemen yang di select
+        val() //memanipulasi value 
+
+        //contoh get 
+        $("#button").click(function(){
+            alert("value: " + $("#test").text());
+        });
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
