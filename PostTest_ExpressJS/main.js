@@ -1,6 +1,10 @@
 const express = require('express')
 let posts = require('./posts.json')
 const app = express()
+app.use(express.json())
+app.use(express.urlencoded({
+    extended: true
+}))
 
 app.post('/api/v1/posts', (req, res) => {
     const {isbn, judul, sinopsis, penulis, genre} = req.body
