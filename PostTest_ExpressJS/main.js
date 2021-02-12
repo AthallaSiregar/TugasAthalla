@@ -11,6 +11,7 @@ app.post('/api/v1/posts', (req, res) => {
 
     const id = posts[posts.length - 1].id + 1
     const post = {
+        id,
         isbn,
         judul,
         sinopsis,
