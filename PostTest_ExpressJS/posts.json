@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "isbn": 10001,
+        "judul": "Ini judul pertama",
+        "sinopsis": "ini sinopsis pertama",
+        "penulis": "penulis pertama",
+        "genre": "genre pertama"
+    },
+    {
+        "id": 2,
+        "isbn": 10002,
+        "judul": "Ini judul kedua",
+        "sinopsis": "ini sinopsis kedua",
+        "penulis": "penulis kedua",
+        "genre": "genre kedua"
+    },
+    {
+        "id": 3,
+        "isbn": 10003,
+        "judul": "Ini judul ketiga",
+        "sinopsis": "ini sinopsis ketiga",
+        "penulis": "penulis ketiga",
+        "genre": "genre ketiga"
+    }
+]
